@@ -4,10 +4,9 @@ select {
 }
 
 .dropdown {
-  margin-bottom: 20px;
-  display: flex;
+ margin-bottom: 20px;
+ display: flex;
  justify-content: center;
-
 }
 
 

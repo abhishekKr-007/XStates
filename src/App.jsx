@@ -68,7 +68,9 @@ function App() {
           onChange={(e) => setSelectedState(e.target.value)}
           disabled={!selectedCountry}
         >
-          <option value="">Select State</option>
+          <option value="" disabled>
+            Select State
+          </option>
           {states.map((state) => (
             <option key={state} value={state}>
               {state}
@@ -81,7 +83,9 @@ function App() {
           onChange={(e) => setSelectedCity(e.target.value)}
           disabled={!selectedState}
         >
-          <option value="">Select City</option>
+          <option value="" disabled>
+            Select City
+          </option>
           {cities.map((city) => (
             <option key={city} value={city}>
               {city}
